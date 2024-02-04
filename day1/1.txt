@@ -1,0 +1,64 @@
+user intercafe
+logic 
+data
+
+API Application Programing interface
+menjembatani pengguna untuk menghubungkan frontend dan backend
+
+komponen cara kerja website:
+HTML
+CSS
+Javascript
+server hosting
+peramban web
+
+web development life cycle
+business requirement
+functional fitur 
+non- functional = -uptime aplikasi bagus
+		  -loading tidak lama	
+
+fakeclient.com
+codewars.com
+hackerrank.com	
+
+
+Bagaimana cara kerja website?
+
+Sebuah Website tersimpan di suatu server, kita bisa mengakses web teserbut melalui semacam kode URL yang
+dikirimkan ke server tersebut kemudian server tersebut mengirimkan kembali URL kode tersebut ke dalam suatau
+tampilan yang dapat kita lihat.
+
+Bagaimana Server tersebut mengetahui apa url yang telah di masukkan di browser? yaitu dengan menggunakan
+IP address, baik itu IPv4 maupun IPv6. Kemudian untuk menterjamahkan URL tersebut ke dalam bentuk IP Address,
+browser mengkontak DNS Server atau Domain Name System Server sehingga URL tersebut di terjemahkan ke dalam bentuk IP Address
+yang di kirimkan kembali ke browser dan browser menampilkan ip tersebut kedalam bentuk tampilan websites.
+
+Jadi ketika mengetikkan URL di browser, Browser melakukan request untuk page url tersebut ke DNS Server dan server melakukan
+response untuk menampilkan website tersebut. Website yang di tampilkan adalah hasil kombinasi dari 3 bahasa yaitu HTML, CSS, dan Javascript.
+
+HTML (Hypertext Markup Languange)
+HTML adalah struktur website dimana struktur itu berupa heading apa yang kita input, paragraf, dan button. Untuk membuat
+tampilan suatu website terlihat lebih baik yaitu menggunakan CSS.
+
+CSS (Cascading Style Sheets)
+CSS dapat membuat tampilan website lebih menarik sesuai dengan keinginan kita, 
+misalnya dengan mengubah warna suatu konten seperti pada Button dan Card pada online shop.
+
+Javascript
+Adalah bahas pemrogram yang digunakan pada website. Javascript merupakan logic yang diberikan pada website seperti membuat dropdown navigation,
+slide navigation.
+
+Semua transfer data memiliki standard, contoh melakukan request dan response yang disebut dengan HTTP (Hyper Text Transfer Protocol)
+tidak hanya HTTP ada juga HTTPS (Hyper Text Transfer Protocol Secure) yang menggunakan enkripsi dan semua website modern menggunakan HTTPS.
+HTTPS berguna untuk mencegah sniffing dari luar baik itu pada browser dan server, Jadi data yang di request dan di response di enkripsi secara end to end baik itu di server maupun di browser.
+
+Framework
+Framework merupakan suatu fungsi ultilitas yang memiliki aturan-aturan tertentu dan mempermudah dalam penulisan logic ke dalam code,
+adapun framework yang banyak digunakan untuk front-end adalah Angular, React, dan Vue.js. Jadi framework merupakan bagian
+penting dalam web development.
+
+JSON (Javascript Object Notation)
+Merupakan format data yang digunakan untuk pertukaran informasi data melalui web server, contohnya pada mobile apps seperti
+twitter, facebook dan instagram. Pertukaran data dilakukan di belakang mobile apps. Memiliki format data yang fleksibel
+tidak peduli itu dijalankan melalui browser ataupun perangkat mobile.
