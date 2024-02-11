@@ -45,17 +45,27 @@ let targetVisitor = prompt(
 );
 targetVisitor = parseInt(targetVisitor);
 
-for (let i = 1; i <= totalVariant; i++) {
-  // (start) lengkapi kode ini:
-
-  // let visitor =
-
-  // (end) lengkapi kode ini:
-
-  console.log(`Variant ke-${i} akan mendapatkan ${visitor} visitor`);
+if (totalVariant === 0 || targetVisitor === 0) {
+  return console.log(`Total variant/visitor tidak boleh 0`);
 }
 
-// 3 variant totalvis = 10
-// variant 1 akan mendapatkan 4 vis
-// variant 2 akan mendapatkan 3 vis
-// variant 3 akan mendapatkan 3 vis
+//  perhitungan
+const variant = new Array(totalVariant).fill(0);
+let counter = 0;
+
+for (let i = 1; i <= targetVisitor; i++) {
+  // (start) lengkapi kode ini:
+
+  // (end) lengkapi kode ini:
+  // console.log(`Variant ke-${i} akan mendapatkan ${visitor} visitor`);
+  variant[counter] += 1;
+  counter++;
+
+  if (counter === variant.length) {
+    counter = 0;
+  }
+}
+
+variant.forEach(function (item, idx) {
+  console.log(`Variant ke-${idx + 1} akan mendapatkan ${item} visitor`);
+});
