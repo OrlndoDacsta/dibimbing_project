@@ -8,7 +8,7 @@ const filterData = (arr, searchValue) => {
   // tulis code di sini
   let data = []
   for (let i = 0; i < arr.length; i++){
-    if(arr[i] === 5 ){
+    if(arr[i] === searchValue){
       data.push(arr[i])
     }
   }

@@ -11,14 +11,15 @@ const filterData = (arr, searchValue) => {
   // tulis code di sini
   let data = [];
   for (let i = 0; i < arr.length; i++) {
-   for(let j = 0; j < searchValue.length; j++){
-    if(searchValue[j] === arr[i]){
-      data.push(searchValue[j])
+    for (let j = 0; j < searchValue.length; j++) {
+      if (searchValue[j] === arr[i]) {
+        data.push(searchValue[j]);
+        break;
+      }
     }
-   }
   }
-  return data
-}
+  return data;
+};
 
 let data_array = [
   1, 2, 4, 7, 3, 1, 5, 7, 8, 5, 9, 1, 3, 6, 2, 6, 5, 5, 5, 5, 1,

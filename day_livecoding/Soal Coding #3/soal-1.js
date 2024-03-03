@@ -9,13 +9,17 @@
 
 const countManual = (arr) => {
   // tulis code di sini
-  let len = 0;
+  // let len = 0;
 
-  for (let i = 0; i < arr.length; i++) {
-    len = i + 1;
+  for (let i = 0; i >= 0; i++) {
+    if (typeof arr[i] === "undefined") {
+      return i;
+      // break;
+    }
+    // len++
   }
-  return len;
-}
+  // return len;
+};
 
 let data_array = [
   1, 2, 4, 7, 3, 1, 5, 7, 8, 5, 9, 1, 3, 6, 2, 6, 5, 5, 5, 5, 1,

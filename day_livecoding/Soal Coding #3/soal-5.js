@@ -9,8 +9,29 @@
 
 const countData = (arr, searchValue) => {
   // tulis code di sini
-  
-}
 
-let data_array = [1,2,4,7,3,1,5,7,8,5,9,1,3,6,2,6,5,5,5,5,1];
-console.log(countData(data_array, [1,5]));  // output: { '1': 4, '5': 6 }  (satu ada 4 & lima ada 6)
+  let temp = [];
+  let res = {};
+
+  for (i = 0; i < arr.length; i++) {
+    for (j = 0; j < searchValue.length; j++) {
+      if (searchValue[j] === arr[i]) {
+        temp.push(searchValue[j]);
+        break;
+      }
+    }
+  }
+  for (k = 0; k < temp.length; k++) {
+    if (res[temp[k]]) {
+      res[temp[k]]++;
+    } else {
+      res[temp[k]] = 1;
+    }
+  }
+  return res;
+};
+
+let data_array = [
+  1, 2, 4, 7, 3, 1, 5, 7, 8, 5, 9, 1, 3, 6, 2, 6, 5, 5, 5, 5, 1,
+];
+console.log(countData(data_array, [1, 5])); // output: { '1': 4, '5': 6 }  (satu ada 4 & lima ada 6)
