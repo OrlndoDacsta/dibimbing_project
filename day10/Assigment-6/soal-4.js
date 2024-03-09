@@ -12,9 +12,9 @@ async function getMovies() {
       throw new Error("Failed get data");
     }
   }
-  async function getHistory() {
+  async function getDataMov() {
     const dataMovies = await getMovies();
     console.log(dataMovies);
   }
   
-  getHistory();
+getDataMov()
