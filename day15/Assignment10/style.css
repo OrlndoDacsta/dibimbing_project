@@ -385,15 +385,21 @@ section {
   cursor: pointer;
 }
 
-article{
+article {
   width: 1440px;
   height: 1183px;
   padding: 80px 208px 80px 208px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
 }
 
-.article1{
+.article1 {
   width: 762px;
   height: 1023px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .terbaru {
@@ -418,4 +424,87 @@ article{
   width: 665px;
   border-bottom: 4px solid #019fc4;
   background-color: #ffffff;
+}
+
+.post {
+  width: 762px;
+  height: 160px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.desc {
+  width: 546px;
+  height: 108px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-family: Open;
+}
+
+.desc1 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #939395;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.more{
+  width: 107px;
+  height: 42px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  
+}
+
+.more1{
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 18px;
+  color: #019FC4;
+  width: 120px;
+  height: 18px;
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.article2 {
+  width: 238px;
+  height: 785px;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #004e60;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+h2 {
+  font-family: Open;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+  border-bottom: 1px solid #fafafa;
+}
+
+.rekomendasi {
+  width: 206px;
+  height: 126px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.rekomendasiText {
+  font-family: Open;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
 }
