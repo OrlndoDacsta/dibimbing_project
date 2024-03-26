@@ -1,0 +1,342 @@
+/* /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ----------------------------------------- */
+
+@font-face {
+  font-family: Open;
+  src: url(/asset/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+* {
+  font-family: Open;
+}
+
+nav {
+  height: 26px;
+  width: 1440px;
+  background-color: #00252e;
+  padding: 4px 208px 4px 208px;
+  display: flex;
+  justify-content: space-between;
+  font-family: Open;
+}
+
+.frame79 {
+  width: 488px;
+  height: 18px;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.frame78 {
+  width: 154px;
+  height: 18px;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.frame79 a {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+main {
+  width: 1440px;
+  height: 132px;
+  background-color: #ffffff;
+  padding: 16px 208px 16px 208px;
+}
+
+.frame89 {
+  width: 1440 px;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.frame34 {
+  width: 804px;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.frame34 a {
+  color: #606062;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.frame44 {
+  width: 74px;
+  padding: 10px;
+}
+
+.frame51 {
+  width: 122px;
+  padding: 10px;
+}
+
+.frame52 {
+  width: 168px;
+  padding: 10px;
+}
+
+.frame49 {
+  width: 176px;
+  padding: 10px;
+}
+
+.frame53 {
+  width: 119px;
+  padding: 10px;
+}
+
+.frame45 {
+  width: 112px;
+  padding: 5px;
+}
+
+.search {
+  width: 24px;
+  height: 24px;
+}
+
+input {
+  border-radius: 25px;
+  margin-left: 300px;
+  width: 250px;
+  border-color: transparent;
+}
+
+section {
+  width: 1440px;
+  height: 733px;
+  padding: 80px 208px 80px 208px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  font-family: Open;
+}
+
+.section1 {
+  width: 500px;
+  height: 573px;
+}
+
+.section2 {
+  width: 500px;
+  height: 553px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.category {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  color: #939395;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2e2e2e;
+}
+
+.writer1 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.writer {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #939395;
+}
+
+.date {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #939395;
+}
+
+.slide1 {
+  width: 500px;
+  height: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.section3 {
+  width: 500px;
+  height: 573px;
+}
+
+.trending {
+  width: 500px;
+  height: 37px;
+  display: flex;
+  font-family: Open;
+}
+
+.trending1 {
+  width: 106px;
+  background-color: #019fc4;
+  border-radius: 4px 4px 0px 4px;
+  padding: 8px 16px 8px 16px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.trending2 {
+  width: 394px;
+  border-bottom: 4px solid #019fc4;
+  background-color: #ffffff;
+}

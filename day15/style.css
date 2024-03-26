@@ -1,0 +1,51 @@
+.container1 {
+  background-color: red;
+  color: blue;
+}
+
+.span {
+  color: salmon;
+  font-weight: bold;
+  font-style: italic;
+  background-color: brown;
+}
+
+.container {
+  border: 3px solid red;
+  border-radius: 10px;
+  /* margin: 20px 10px 5px 7px; */
+  /* margin: 20px;
+  padding: 20px; */
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: row-reverse;
+
+  /* pada width tertentu, flex direction jadi column */
+}
+
+.child1,
+.child2,
+.child3,
+.child4 {
+  width: 50px;
+  height: 50px;
+  border: 3px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child2{
+    height: 60px;
+}
+
+.child3{
+    height: 40px;
+}
+
+.child4{
+    height: 90px;
+}
