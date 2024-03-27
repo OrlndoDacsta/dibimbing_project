@@ -387,7 +387,7 @@ section {
 
 article {
   width: 1440px;
-  height: 1183px;
+  height: 1000px;
   padding: 80px 208px 80px 208px;
   display: flex;
   flex-direction: row;
@@ -451,20 +451,19 @@ article {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.more{
+.more {
   width: 107px;
   height: 42px;
   display: flex;
   flex-direction: column;
   align-self: center;
-  
 }
 
-.more1{
+.more1 {
   font-weight: 700;
   font-size: 10px;
   line-height: 18px;
-  color: #019FC4;
+  color: #019fc4;
   width: 120px;
   height: 18px;
   border: none;
@@ -507,4 +506,140 @@ h2 {
   font-size: 14px;
   line-height: 21px;
   color: #ffffff;
+}
+
+footer {
+  width: 1440px;
+  height: 350px;
+  padding: 80px 208px 80px 208px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.footer1 {
+  width: 1024px;
+  height: 257px;
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+
+.contact1 {
+  width: 464px;
+  height: 257px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.contactText {
+  width: 136px;
+  height: 66px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footerText {
+  font-family: Open;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #595959;
+}
+
+.footerText2 {
+  font-family: Open;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #272727;
+}
+
+.footerText3 {
+  width: 336px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.footerLogo {
+  width: 48px;
+  height: 48px;
+  border-radius: 99px;
+  background-color: #dbf8ff;
+}
+
+.footerLogo1 {
+  position: relative;
+  top: 12px;
+  left: 12px;
+}
+
+.contact2 {
+  width: 200px;
+  height: 214px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contactTitle {
+  font-family: Open;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  color: #7a7a7b;
+}
+
+.contactTitle2 {
+  width: 153px;
+  height: 169px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contactTitle3 {
+  font-family: Open;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  color: #019fc4;
+}
+
+.contact3 {
+  width: 200px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contactTitle4 {
+  width: 65px;
+  height: 95px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer2{
+  width: 1024px;
+  height: 45px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-top-color: 1px solid #F3F2EF;
+}
+
+.copyright{
+  font-family: Open;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #595959;
 }
